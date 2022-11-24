@@ -122,13 +122,15 @@ body{
   .card{
     grid-template-columns: minmax(300px, 343px);
     grid-template-rows: repeat(2, min-content);
-    
-    
   }
   
   .card__image{
     object-fit: cover;
     max-height: 250px;    
+  }
+
+  .card__details{
+    padding: 24px;
   }
 
   .card__button{
